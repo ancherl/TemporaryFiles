@@ -1,0 +1,29 @@
+ {
+ 2   "definitions": {}, 
+ 3   "$schema": "http://json-schema.org/draft-04/schema#", 
+ 4   "id": "http://example.com/example.json", 
+ 5   "type": "object", 
+ 6   "properties": {
+ 7     "UserName": {
+ 8       "id": "/properties/UserName", 
+ 9       "type": "string", 
+10       "title": "The Username Schema.", 
+11       "description": "An explanation about the purpose of this instance.", 
+12       "default": ""
+13     }, 
+14     "Password": {
+15       "id": "/properties/Password", 
+16       "type": "string", 
+17       "title": "The Password Schema.", 
+18       "description": "An explanation about the purpose of this instance.", 
+19       "default": ""
+20     }, 
+21     "Company": {
+22       "id": "/properties/Company", 
+23       "type": "string", 
+24       "title": "The Company Schema.", 
+25       "description": "An explanation about the purpose of this instance.", 
+26       "default": ""
+27     }
+28   }
+29 }
